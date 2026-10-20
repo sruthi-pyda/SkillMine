@@ -1,0 +1,2 @@
+sample_size,tp,fp,fn,precision,recall,f1,zero_skill_postings,note
+100,196,47,0,0.8066,1.0,0.8929,4979,"Precision/recall measured as R-script vs Python re-extraction agreement. Both use the same regex patterns, so disagreements reflect R/Python regex differences. True manual precision requires human annotation."

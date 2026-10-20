@@ -1,0 +1,51 @@
+rank,role_group,n_baskets,min_support_used,antecedents,consequents,support,support_count,antecedent support,consequent support,confidence,lift,leverage,conviction
+1,data_scientist_ml,483,0.02,"gcp, machine learning, pytorch","aws, python, tensorflow",0.0455,22,0.0663,0.0683,0.6875,10.0625,0.041,2.981
+2,data_scientist_ml,483,0.02,"aws, python, tensorflow","gcp, machine learning, pytorch",0.0455,22,0.0683,0.0663,0.6667,10.0625,0.041,2.801
+3,data_scientist_ml,483,0.02,"kubernetes, python",docker,0.0497,24,0.0621,0.0807,0.8,9.9077,0.0447,4.596
+4,data_scientist_ml,483,0.02,docker,"kubernetes, python",0.0497,24,0.0807,0.0621,0.6154,9.9077,0.0447,2.439
+5,data_scientist_ml,483,0.02,kubernetes,docker,0.0559,27,0.0704,0.0807,0.7941,9.8348,0.0502,4.465
+6,data_scientist_ml,483,0.02,docker,kubernetes,0.0559,27,0.0807,0.0704,0.6923,9.8348,0.0502,3.021
+7,data_scientist_ml,483,0.02,"aws, python, pytorch","gcp, tensorflow",0.0455,22,0.0683,0.0683,0.6667,9.7576,0.0409,2.795
+8,data_scientist_ml,483,0.02,"gcp, tensorflow","aws, python, pytorch",0.0455,22,0.0683,0.0683,0.6667,9.7576,0.0409,2.795
+9,data_scientist_ml,483,0.02,"aws, machine learning, python, pytorch","gcp, tensorflow",0.0455,22,0.0683,0.0683,0.6667,9.7576,0.0409,2.795
+10,data_scientist_ml,483,0.02,"aws, python, pytorch","gcp, machine learning, tensorflow",0.0455,22,0.0683,0.0683,0.6667,9.7576,0.0409,2.795
+11,data_scientist_ml,483,0.02,"gcp, machine learning, tensorflow","aws, python, pytorch",0.0455,22,0.0683,0.0683,0.6667,9.7576,0.0409,2.795
+12,data_scientist_ml,483,0.02,"gcp, tensorflow","aws, machine learning, python, pytorch",0.0455,22,0.0683,0.0683,0.6667,9.7576,0.0409,2.795
+13,data_scientist_ml,483,0.02,kubernetes,"docker, python",0.0497,24,0.0704,0.0725,0.7059,9.7412,0.0446,3.154
+14,data_scientist_ml,483,0.02,"docker, python",kubernetes,0.0497,24,0.0725,0.0704,0.6857,9.7412,0.0446,2.958
+15,data_scientist_ml,483,0.02,"gcp, python, tensorflow","aws, pytorch",0.0455,22,0.0663,0.0725,0.6875,9.4875,0.0407,2.968
+16,data_scientist_ml,483,0.02,"gcp, machine learning, pytorch","aws, tensorflow",0.0455,22,0.0663,0.0725,0.6875,9.4875,0.0407,2.968
+17,data_scientist_ml,483,0.02,"gcp, machine learning, python, pytorch","aws, tensorflow",0.0455,22,0.0663,0.0725,0.6875,9.4875,0.0407,2.968
+18,data_scientist_ml,483,0.02,"gcp, machine learning, python, tensorflow","aws, pytorch",0.0455,22,0.0663,0.0725,0.6875,9.4875,0.0407,2.968
+19,data_scientist_ml,483,0.02,"gcp, python, tensorflow","aws, machine learning, pytorch",0.0455,22,0.0663,0.0725,0.6875,9.4875,0.0407,2.968
+20,data_scientist_ml,483,0.02,"aws, pytorch","gcp, python, tensorflow",0.0455,22,0.0725,0.0663,0.6286,9.4875,0.0407,2.514
+21,data_scientist_ml,483,0.02,"aws, tensorflow","gcp, machine learning, pytorch",0.0455,22,0.0725,0.0663,0.6286,9.4875,0.0407,2.514
+22,data_scientist_ml,483,0.02,"aws, machine learning, pytorch","gcp, python, tensorflow",0.0455,22,0.0725,0.0663,0.6286,9.4875,0.0407,2.514
+23,data_scientist_ml,483,0.02,"aws, pytorch","gcp, machine learning, python, tensorflow",0.0455,22,0.0725,0.0663,0.6286,9.4875,0.0407,2.514
+24,data_scientist_ml,483,0.02,"aws, tensorflow","gcp, machine learning, python, pytorch",0.0455,22,0.0725,0.0663,0.6286,9.4875,0.0407,2.514
+25,data_scientist_ml,483,0.02,"aws, python, tensorflow","gcp, pytorch",0.0455,22,0.0683,0.0704,0.6667,9.4706,0.0407,2.789
+26,data_scientist_ml,483,0.02,"aws, machine learning, python, tensorflow","gcp, pytorch",0.0455,22,0.0683,0.0704,0.6667,9.4706,0.0407,2.789
+27,data_scientist_ml,483,0.02,"gcp, pytorch","aws, python, tensorflow",0.0455,22,0.0704,0.0683,0.6471,9.4706,0.0407,2.64
+28,data_scientist_ml,483,0.02,"gcp, pytorch","aws, machine learning, python, tensorflow",0.0455,22,0.0704,0.0683,0.6471,9.4706,0.0407,2.64
+29,data_scientist_ml,483,0.02,"gcp, tensorflow","aws, pytorch",0.0455,22,0.0683,0.0725,0.6667,9.2,0.0406,2.783
+30,data_scientist_ml,483,0.02,"gcp, machine learning, tensorflow","aws, pytorch",0.0455,22,0.0683,0.0725,0.6667,9.2,0.0406,2.783
+31,data_scientist_ml,483,0.02,"gcp, tensorflow","aws, machine learning, pytorch",0.0455,22,0.0683,0.0725,0.6667,9.2,0.0406,2.783
+32,data_scientist_ml,483,0.02,"aws, pytorch","gcp, tensorflow",0.0455,22,0.0725,0.0683,0.6286,9.2,0.0406,2.508
+33,data_scientist_ml,483,0.02,"aws, machine learning, pytorch","gcp, tensorflow",0.0455,22,0.0725,0.0683,0.6286,9.2,0.0406,2.508
+34,data_scientist_ml,483,0.02,"aws, pytorch","gcp, machine learning, tensorflow",0.0455,22,0.0725,0.0683,0.6286,9.2,0.0406,2.508
+35,data_scientist_ml,483,0.02,"gcp, pytorch","aws, tensorflow",0.0455,22,0.0704,0.0725,0.6471,8.9294,0.0404,2.628
+36,data_scientist_ml,483,0.02,"gcp, python, pytorch","aws, tensorflow",0.0455,22,0.0704,0.0725,0.6471,8.9294,0.0404,2.628
+37,data_scientist_ml,483,0.02,"gcp, pytorch","aws, machine learning, tensorflow",0.0455,22,0.0704,0.0725,0.6471,8.9294,0.0404,2.628
+38,data_scientist_ml,483,0.02,"gcp, python, pytorch","aws, machine learning, tensorflow",0.0455,22,0.0704,0.0725,0.6471,8.9294,0.0404,2.628
+39,data_scientist_ml,483,0.02,"aws, tensorflow","gcp, pytorch",0.0455,22,0.0725,0.0704,0.6286,8.9294,0.0404,2.503
+40,data_scientist_ml,483,0.02,"aws, tensorflow","gcp, python, pytorch",0.0455,22,0.0725,0.0704,0.6286,8.9294,0.0404,2.503
+41,data_scientist_ml,483,0.02,"aws, machine learning, tensorflow","gcp, pytorch",0.0455,22,0.0725,0.0704,0.6286,8.9294,0.0404,2.503
+42,data_scientist_ml,483,0.02,"aws, machine learning, tensorflow","gcp, python, pytorch",0.0455,22,0.0725,0.0704,0.6286,8.9294,0.0404,2.503
+43,data_scientist_ml,483,0.02,"power bi, python, statistics","machine learning, tableau",0.0435,21,0.0663,0.0745,0.6562,8.8047,0.0385,2.692
+44,data_scientist_ml,483,0.02,"machine learning, tableau","power bi, python, statistics",0.0435,21,0.0745,0.0663,0.5833,8.8047,0.0385,2.241
+45,data_scientist_ml,483,0.02,"power bi, statistics","machine learning, tableau",0.0455,22,0.0704,0.0745,0.6471,8.6814,0.0403,2.622
+46,data_scientist_ml,483,0.02,"machine learning, tableau","power bi, statistics",0.0455,22,0.0745,0.0704,0.6111,8.6814,0.0403,2.39
+47,data_scientist_ml,483,0.02,"power bi, statistics","machine learning, python, tableau",0.0435,21,0.0704,0.0725,0.6176,8.5235,0.0384,2.426
+48,data_scientist_ml,483,0.02,"machine learning, python, tableau","power bi, statistics",0.0435,21,0.0725,0.0704,0.6,8.5235,0.0384,2.324
+49,data_scientist_ml,483,0.02,"machine learning, tableau","power bi, python",0.0476,23,0.0745,0.0787,0.6389,8.1206,0.0418,2.551
+50,data_scientist_ml,483,0.02,"power bi, python","machine learning, tableau",0.0476,23,0.0787,0.0745,0.6053,8.1206,0.0418,2.345

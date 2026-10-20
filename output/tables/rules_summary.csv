@@ -1,0 +1,7 @@
+run,n_baskets,min_support,min_confidence,min_lift,n_rules,top_rule
+overall,17552,0.01,0.5,1.2,441,hadoop → spark (lift=19.9466)
+data_analyst,1348,0.02,0.5,1.2,213,"data visualization, python → r, sql (lift=11.6918)"
+software_engineer,1872,0.02,0.5,1.2,20094,"aws, azure, javascript, kubernetes, python → agile, docker, gcp, sql (lift=29.1064)"
+cloud_devops,649,0.02,0.5,1.2,5195,"git, kubernetes, python, terraform → aws, ci/cd, linux (lift=6.9785)"
+data_scientist_ml,484,0.02,0.5,1.2,2952,"gcp, machine learning, pytorch → aws, python, tensorflow (lift=10.0833)"
+data_engineer,521,0.02,0.5,1.2,6088,"etl, gcp, spark → aws, azure, ci/cd, sql (lift=10.1306)"

@@ -1,0 +1,3 @@
+stage,rows,cols,duplicate_ids,duplicate_text,missing_desc,missing_salary,missing_skills
+Before cleaning,123849,31,0,12659,7,87776,121410
+After cleaning,22372,27,0,0,0,15478,4820

@@ -1,0 +1,51 @@
+rank,role_group,n_baskets,min_support_used,antecedents,consequents,support,support_count,antecedent support,consequent support,confidence,lift,leverage,conviction
+1,software_engineer,1865,0.02,"aws, azure, javascript, kubernetes, python","agile, docker, gcp, sql",0.0204,38,0.0252,0.0279,0.8085,28.9975,0.0197,5.077
+2,software_engineer,1865,0.02,"agile, docker, gcp, sql","aws, azure, javascript, kubernetes, python",0.0204,38,0.0279,0.0252,0.7308,28.9975,0.0197,3.621
+3,software_engineer,1865,0.02,"aws, azure, kubernetes, python, sql","agile, docker, gcp, javascript",0.0204,38,0.0263,0.0268,0.7755,28.9265,0.0197,4.335
+4,software_engineer,1865,0.02,"agile, docker, gcp, javascript","aws, azure, kubernetes, python, sql",0.0204,38,0.0268,0.0263,0.76,28.9265,0.0197,4.057
+5,software_engineer,1865,0.02,"aws, azure, javascript, kubernetes, sql","agile, docker, gcp, python",0.0204,38,0.0257,0.0279,0.7917,28.3934,0.0197,4.666
+6,software_engineer,1865,0.02,"agile, docker, gcp, python","aws, azure, javascript, kubernetes, sql",0.0204,38,0.0279,0.0257,0.7308,28.3934,0.0197,3.619
+7,software_engineer,1865,0.02,"agile, gcp, kubernetes, python","aws, azure, docker, javascript, sql",0.0204,38,0.0268,0.0273,0.76,27.7922,0.0196,4.053
+8,software_engineer,1865,0.02,"aws, azure, docker, javascript, sql","agile, gcp, kubernetes, python",0.0204,38,0.0273,0.0268,0.7451,27.7922,0.0196,3.818
+9,software_engineer,1865,0.02,"aws, azure, javascript, kubernetes, python, sql","agile, docker, gcp",0.0204,38,0.0209,0.0354,0.9744,27.533,0.0196,37.62
+10,software_engineer,1865,0.02,"agile, docker, gcp","aws, azure, javascript, kubernetes, python, sql",0.0204,38,0.0354,0.0209,0.5758,27.533,0.0196,2.308
+11,software_engineer,1865,0.02,"agile, aws, azure, kubernetes, python, sql","docker, gcp, javascript",0.0204,38,0.0236,0.0316,0.8636,27.2997,0.0196,7.101
+12,software_engineer,1865,0.02,"docker, gcp, javascript","agile, aws, azure, kubernetes, python, sql",0.0204,38,0.0316,0.0236,0.6441,27.2997,0.0196,2.743
+13,software_engineer,1865,0.02,"docker, gcp, javascript, sql","agile, aws, azure, kubernetes, python",0.0204,38,0.0268,0.0284,0.76,26.7434,0.0196,4.048
+14,software_engineer,1865,0.02,"agile, aws, azure, kubernetes, python","docker, gcp, javascript, sql",0.0204,38,0.0284,0.0268,0.717,26.7434,0.0196,3.439
+15,software_engineer,1865,0.02,"agile, azure, kubernetes, python, sql","aws, docker, gcp, javascript",0.0204,38,0.0257,0.03,0.7917,26.3653,0.0196,4.656
+16,software_engineer,1865,0.02,"aws, docker, gcp, javascript","agile, azure, kubernetes, python, sql",0.0204,38,0.03,0.0257,0.6786,26.3653,0.0196,3.031
+17,software_engineer,1865,0.02,"aws, azure, docker, javascript, python","agile, gcp, kubernetes, sql",0.0204,38,0.0263,0.0295,0.7755,26.2968,0.0196,4.323
+18,software_engineer,1865,0.02,"agile, gcp, kubernetes, sql","aws, azure, docker, javascript, python",0.0204,38,0.0295,0.0263,0.6909,26.2968,0.0196,3.15
+19,software_engineer,1865,0.02,"agile, gcp, javascript, kubernetes","aws, azure, docker, python, sql",0.0204,38,0.0268,0.029,0.76,26.2481,0.0196,4.046
+20,software_engineer,1865,0.02,"aws, azure, docker, python, sql","agile, gcp, javascript, kubernetes",0.0204,38,0.029,0.0268,0.7037,26.2481,0.0196,3.285
+21,software_engineer,1865,0.02,"agile, docker, gcp, javascript, python","aws, azure, kubernetes, sql",0.0204,38,0.0225,0.0349,0.9048,25.9597,0.0196,10.134
+22,software_engineer,1865,0.02,"aws, azure, kubernetes, sql","agile, docker, gcp, javascript, python",0.0204,38,0.0349,0.0225,0.5846,25.9597,0.0196,2.353
+23,software_engineer,1865,0.02,"gcp, javascript, kubernetes, sql","agile, aws, azure, docker, python",0.0204,38,0.0257,0.0306,0.7917,25.9028,0.0196,4.653
+24,software_engineer,1865,0.02,"agile, aws, azure, docker, python","gcp, javascript, kubernetes, sql",0.0204,38,0.0306,0.0257,0.6667,25.9028,0.0196,2.923
+25,software_engineer,1865,0.02,"agile, docker, gcp, python, sql","aws, azure, javascript, kubernetes",0.0204,38,0.0241,0.0327,0.8444,25.8179,0.0196,6.218
+26,software_engineer,1865,0.02,"aws, azure, javascript, kubernetes","agile, docker, gcp, python, sql",0.0204,38,0.0327,0.0241,0.623,25.8179,0.0196,2.588
+27,software_engineer,1865,0.02,"agile, aws, azure, javascript, kubernetes, python","docker, gcp, sql",0.0204,38,0.0236,0.0338,0.8636,25.5664,0.0196,7.086
+28,software_engineer,1865,0.02,"docker, gcp, sql","agile, aws, azure, javascript, kubernetes, python",0.0204,38,0.0338,0.0236,0.6032,25.5664,0.0196,2.461
+29,software_engineer,1865,0.02,"agile, aws, azure, docker, python, sql","gcp, javascript, kubernetes",0.0204,38,0.0257,0.0311,0.7917,25.4562,0.0196,4.651
+30,software_engineer,1865,0.02,"gcp, javascript, kubernetes","agile, aws, azure, docker, python, sql",0.0204,38,0.0311,0.0257,0.6552,25.4562,0.0196,2.825
+31,software_engineer,1865,0.02,"agile, aws, docker, gcp, javascript","azure, kubernetes, python, sql",0.0204,38,0.0263,0.0306,0.7755,25.3741,0.0196,4.318
+32,software_engineer,1865,0.02,"azure, kubernetes, python, sql","agile, aws, docker, gcp, javascript",0.0204,38,0.0306,0.0263,0.6667,25.3741,0.0196,2.921
+33,software_engineer,1865,0.02,"aws, azure, kubernetes, python, sql","docker, gcp, java",0.0209,39,0.0263,0.0316,0.7959,25.1591,0.0201,4.745
+34,software_engineer,1865,0.02,"docker, gcp, java","aws, azure, kubernetes, python, sql",0.0209,39,0.0316,0.0263,0.661,25.1591,0.0201,2.872
+35,software_engineer,1865,0.02,"agile, azure, kubernetes, python, sql","docker, gcp, javascript",0.0204,38,0.0257,0.0316,0.7917,25.0247,0.0196,4.648
+36,software_engineer,1865,0.02,"docker, gcp, javascript","agile, azure, kubernetes, python, sql",0.0204,38,0.0316,0.0257,0.6441,25.0247,0.0196,2.737
+37,software_engineer,1865,0.02,"agile, gcp, kubernetes, python, sql","aws, azure, docker, javascript",0.0204,38,0.0241,0.0338,0.8444,24.9982,0.0196,6.211
+38,software_engineer,1865,0.02,"aws, azure, docker, javascript","agile, gcp, kubernetes, python, sql",0.0204,38,0.0338,0.0241,0.6032,24.9982,0.0196,2.459
+39,software_engineer,1865,0.02,"aws, docker, gcp, javascript, sql","agile, azure, kubernetes, python",0.0204,38,0.0263,0.0311,0.7755,24.9367,0.0196,4.316
+40,software_engineer,1865,0.02,"gcp, javascript, kubernetes, python","agile, aws, azure, docker, sql",0.0204,38,0.0263,0.0311,0.7755,24.9367,0.0196,4.316
+41,software_engineer,1865,0.02,"agile, aws, azure, docker, sql","gcp, javascript, kubernetes, python",0.0204,38,0.0311,0.0263,0.6552,24.9367,0.0196,2.824
+42,software_engineer,1865,0.02,"agile, azure, kubernetes, python","aws, docker, gcp, javascript, sql",0.0204,38,0.0311,0.0263,0.6552,24.9367,0.0196,2.824
+43,software_engineer,1865,0.02,"agile, docker, gcp, javascript","azure, kubernetes, python, sql",0.0204,38,0.0268,0.0306,0.76,24.8667,0.0196,4.039
+44,software_engineer,1865,0.02,"docker, gcp, javascript, python","agile, aws, azure, kubernetes, sql",0.0204,38,0.0268,0.0306,0.76,24.8667,0.0196,4.039
+45,software_engineer,1865,0.02,"azure, kubernetes, python, sql","agile, docker, gcp, javascript",0.0204,38,0.0306,0.0268,0.6667,24.8667,0.0196,2.92
+46,software_engineer,1865,0.02,"agile, aws, azure, kubernetes, sql","docker, gcp, javascript, python",0.0204,38,0.0306,0.0268,0.6667,24.8667,0.0196,2.92
+47,software_engineer,1865,0.02,"agile, aws, azure, docker, javascript, python","gcp, kubernetes, sql",0.0204,38,0.0236,0.0349,0.8636,24.7797,0.0196,7.078
+48,software_engineer,1865,0.02,"gcp, kubernetes, python, sql","agile, aws, azure, docker, javascript",0.0204,38,0.0279,0.0295,0.7308,24.7797,0.0196,3.605
+49,software_engineer,1865,0.02,"agile, aws, azure, docker, javascript","gcp, kubernetes, python, sql",0.0204,38,0.0295,0.0279,0.6909,24.7797,0.0196,3.145
+50,software_engineer,1865,0.02,"gcp, kubernetes, sql","agile, aws, azure, docker, javascript, python",0.0204,38,0.0349,0.0236,0.5846,24.7797,0.0196,2.351

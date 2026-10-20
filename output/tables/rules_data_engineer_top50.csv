@@ -1,0 +1,51 @@
+rank,role_group,n_baskets,min_support_used,antecedents,consequents,support,support_count,antecedent support,consequent support,confidence,lift,leverage,conviction
+1,data_engineer,521,0.02,"etl, gcp, spark","aws, azure, ci/cd, sql",0.0403,21,0.0576,0.0691,0.7,10.1306,0.0363,3.103
+2,data_engineer,521,0.02,"aws, azure, ci/cd, sql","etl, gcp, spark",0.0403,21,0.0691,0.0576,0.5833,10.1306,0.0363,2.262
+3,data_engineer,521,0.02,docker,kubernetes,0.0422,22,0.0595,0.0729,0.7097,9.7301,0.0379,3.193
+4,data_engineer,521,0.02,kubernetes,docker,0.0422,22,0.0729,0.0595,0.5789,9.7301,0.0379,2.234
+5,data_engineer,521,0.02,"etl, gcp, spark, sql","aws, azure, ci/cd",0.0403,21,0.0537,0.0787,0.75,9.5305,0.0361,3.685
+6,data_engineer,521,0.02,"aws, azure, ci/cd","etl, gcp, spark, sql",0.0403,21,0.0787,0.0537,0.5122,9.5305,0.0361,1.94
+7,data_engineer,521,0.02,"agile, aws, azure, spark","ci/cd, gcp, sql",0.0384,20,0.0653,0.0653,0.5882,9.0138,0.0341,2.27
+8,data_engineer,521,0.02,"ci/cd, gcp, sql","agile, aws, azure, spark",0.0384,20,0.0653,0.0653,0.5882,9.0138,0.0341,2.27
+9,data_engineer,521,0.02,"etl, gcp, spark","aws, azure, ci/cd",0.0403,21,0.0576,0.0787,0.7,8.8951,0.0358,3.071
+10,data_engineer,521,0.02,"aws, azure, ci/cd","etl, gcp, spark",0.0403,21,0.0787,0.0576,0.5122,8.8951,0.0358,1.932
+11,data_engineer,521,0.02,"aws, azure, scala","gcp, python, spark",0.0403,21,0.0518,0.0883,0.7778,8.8092,0.0357,4.103
+12,data_engineer,521,0.02,"ci/cd, gcp, sql","aws, azure, etl, spark",0.0403,21,0.0653,0.071,0.6176,8.6971,0.0357,2.43
+13,data_engineer,521,0.02,"aws, azure, etl, spark","ci/cd, gcp, sql",0.0403,21,0.071,0.0653,0.5676,8.6971,0.0357,2.162
+14,data_engineer,521,0.02,"agile, aws, azure, spark, sql","ci/cd, gcp",0.0384,20,0.0614,0.0729,0.625,8.5691,0.0339,2.472
+15,data_engineer,521,0.02,"ci/cd, gcp","agile, aws, azure, spark, sql",0.0384,20,0.0729,0.0614,0.5263,8.5691,0.0339,1.981
+16,data_engineer,521,0.02,"aws, etl, gcp, spark","azure, ci/cd, sql",0.0403,21,0.0518,0.0921,0.7778,8.4421,0.0355,4.085
+17,data_engineer,521,0.02,"aws, azure, etl, spark, sql","ci/cd, gcp",0.0403,21,0.0672,0.0729,0.6,8.2263,0.0354,2.318
+18,data_engineer,521,0.02,"ci/cd, gcp","aws, azure, etl, spark, sql",0.0403,21,0.0729,0.0672,0.5526,8.2263,0.0354,2.085
+19,data_engineer,521,0.02,"gcp, scala","aws, azure, python, spark",0.0403,21,0.0595,0.0825,0.6774,8.2078,0.0354,2.844
+20,data_engineer,521,0.02,"azure, etl, gcp, spark","aws, ci/cd, sql",0.0403,21,0.0518,0.096,0.7778,8.1044,0.0353,4.068
+21,data_engineer,521,0.02,"aws, azure, ci/cd, spark, sql","agile, gcp",0.0384,20,0.0537,0.0883,0.7143,8.0901,0.0336,3.191
+22,data_engineer,521,0.02,"aws, azure, ci/cd, spark","agile, gcp, sql",0.0384,20,0.0576,0.0825,0.6667,8.0775,0.0336,2.752
+23,data_engineer,521,0.02,"agile, aws, azure, spark","ci/cd, gcp",0.0384,20,0.0653,0.0729,0.5882,8.065,0.0336,2.251
+24,data_engineer,521,0.02,"ci/cd, gcp","agile, aws, azure, spark",0.0384,20,0.0729,0.0653,0.5263,8.065,0.0336,1.973
+25,data_engineer,521,0.02,"aws, etl, gcp, spark, sql","azure, ci/cd",0.0403,21,0.048,0.1056,0.84,7.9571,0.0352,5.59
+26,data_engineer,521,0.02,"ci/cd, etl, gcp","aws, azure, spark, sql",0.0403,21,0.048,0.1056,0.84,7.9571,0.0352,5.59
+27,data_engineer,521,0.02,"azure, ci/cd, spark, sql","aws, etl, gcp",0.0403,21,0.0633,0.0806,0.6364,7.8939,0.0352,2.528
+28,data_engineer,521,0.02,"aws, etl, gcp","azure, ci/cd, spark, sql",0.0403,21,0.0806,0.0633,0.5,7.8939,0.0352,1.873
+29,data_engineer,521,0.02,"aws, azure, ci/cd, sql","agile, gcp, spark",0.0384,20,0.0691,0.071,0.5556,7.8228,0.0335,2.09
+30,data_engineer,521,0.02,"agile, gcp, spark","aws, azure, ci/cd, sql",0.0384,20,0.071,0.0691,0.5405,7.8228,0.0335,2.026
+31,data_engineer,521,0.02,"aws, azure, ci/cd, etl","gcp, spark, sql",0.0403,21,0.0518,0.0998,0.7778,7.7927,0.0351,4.051
+32,data_engineer,521,0.02,"aws, azure, etl, spark","ci/cd, gcp",0.0403,21,0.071,0.0729,0.5676,7.7817,0.0351,2.144
+33,data_engineer,521,0.02,"ci/cd, gcp","aws, azure, etl, spark",0.0403,21,0.0729,0.071,0.5526,7.7817,0.0351,2.077
+34,data_engineer,521,0.02,"aws, azure, ci/cd, spark","etl, gcp, sql",0.0403,21,0.0576,0.0902,0.7,7.7596,0.0351,3.033
+35,data_engineer,521,0.02,"azure, ci/cd, spark, sql","agile, aws, gcp",0.0384,20,0.0633,0.0787,0.6061,7.7014,0.0334,2.339
+36,data_engineer,521,0.02,"aws, azure, ci/cd, spark, sql","etl, gcp",0.0403,21,0.0537,0.0979,0.75,7.6618,0.035,3.608
+37,data_engineer,521,0.02,"aws, ci/cd, spark, sql","agile, azure, gcp",0.0384,20,0.0691,0.0729,0.5556,7.617,0.0333,2.086
+38,data_engineer,521,0.02,"agile, azure, gcp","aws, ci/cd, spark, sql",0.0384,20,0.0729,0.0691,0.5263,7.617,0.0333,1.965
+39,data_engineer,521,0.02,"etl, gcp, spark","azure, ci/cd, sql",0.0403,21,0.0576,0.0921,0.7,7.5979,0.035,3.026
+40,data_engineer,521,0.02,"azure, ci/cd, spark","aws, etl, gcp, sql",0.0403,21,0.071,0.0749,0.5676,7.5821,0.035,2.139
+41,data_engineer,521,0.02,"aws, etl, gcp, sql","azure, ci/cd, spark",0.0403,21,0.0749,0.071,0.5385,7.5821,0.035,2.013
+42,data_engineer,521,0.02,"agile, ci/cd, gcp","aws, azure, spark, sql",0.0384,20,0.048,0.1056,0.8,7.5782,0.0333,4.472
+43,data_engineer,521,0.02,"aws, azure, ci/cd, spark","agile, gcp",0.0384,20,0.0576,0.0883,0.6667,7.5507,0.0333,2.735
+44,data_engineer,521,0.02,"agile, aws, azure, ci/cd","gcp, spark, sql",0.0384,20,0.0518,0.0998,0.7407,7.4217,0.0332,3.472
+45,data_engineer,521,0.02,"aws, ci/cd, spark, sql","azure, etl, gcp",0.0403,21,0.0691,0.0787,0.5833,7.4126,0.0349,2.211
+46,data_engineer,521,0.02,"azure, etl, gcp","aws, ci/cd, spark, sql",0.0403,21,0.0787,0.0691,0.5122,7.4126,0.0349,1.908
+47,data_engineer,521,0.02,"azure, ci/cd, spark","agile, aws, gcp, sql",0.0384,20,0.071,0.0729,0.5405,7.4111,0.0332,2.018
+48,data_engineer,521,0.02,"agile, aws, gcp, sql","azure, ci/cd, spark",0.0384,20,0.0729,0.071,0.5263,7.4111,0.0332,1.961
+49,data_engineer,521,0.02,"aws, etl, gcp, spark","azure, ci/cd",0.0403,21,0.0518,0.1056,0.7778,7.3677,0.0348,4.025
+50,data_engineer,521,0.02,"aws, ci/cd, gcp, sql","agile, azure, spark",0.0384,20,0.0595,0.0883,0.6452,7.3072,0.0331,2.569

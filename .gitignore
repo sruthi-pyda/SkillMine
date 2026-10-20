@@ -1,0 +1,27 @@
+# Data files (large; download via README instructions)
+data/linkedin_primary/
+data/validation/
+archive*.zip
+
+# Claude Code internal
+.claude/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Secrets
+.env
+
+# macOS
+.DS_Store

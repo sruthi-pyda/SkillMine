@@ -1,0 +1,21 @@
+rank,role_group,n_baskets,min_support_used,antecedents,consequents,support,support_count,antecedent support,consequent support,confidence,lift,leverage,conviction
+1,overall,17552,0.01,hadoop,spark,0.0106,186,0.0152,0.0349,0.6966,19.9466,0.0101,3.181
+2,overall,17552,0.01,"docker, gcp","aws, kubernetes",0.0102,179,0.0153,0.0358,0.6654,18.5981,0.0096,2.882
+3,overall,17552,0.01,"gcp, kubernetes","aws, docker",0.0102,179,0.0187,0.0307,0.5457,17.7712,0.0096,2.134
+4,overall,17552,0.01,scala,spark,0.0104,183,0.0171,0.0349,0.61,17.4661,0.0098,2.475
+5,overall,17552,0.01,"azure, docker","aws, kubernetes",0.0136,238,0.0228,0.0358,0.595,16.6297,0.0127,2.381
+6,overall,17552,0.01,"r, sql","python, statistics",0.0124,218,0.0228,0.0329,0.545,16.5499,0.0117,2.125
+7,overall,17552,0.01,"aws, docker, gcp",kubernetes,0.0102,179,0.0124,0.0597,0.8249,13.8284,0.0095,5.37
+8,overall,17552,0.01,"javascript, kubernetes",docker,0.0105,184,0.0147,0.0518,0.7132,13.7709,0.0097,3.306
+9,overall,17552,0.01,"docker, gcp",kubernetes,0.0125,220,0.0153,0.0597,0.8178,13.7104,0.0116,5.162
+10,overall,17552,0.01,"aws, azure, docker",kubernetes,0.0136,238,0.0168,0.0597,0.8068,13.5249,0.0126,4.867
+11,overall,17552,0.01,"azure, docker, python",kubernetes,0.0101,177,0.0126,0.0597,0.8009,13.4264,0.0093,4.723
+12,overall,17552,0.01,"aws, azure, kubernetes",docker,0.0136,238,0.0196,0.0518,0.6919,13.3592,0.0125,3.077
+13,overall,17552,0.01,"azure, docker",kubernetes,0.0179,314,0.0228,0.0597,0.785,13.1598,0.0165,4.374
+14,overall,17552,0.01,"aws, gcp, kubernetes",docker,0.0102,179,0.0151,0.0518,0.6755,13.0428,0.0094,2.922
+15,overall,17552,0.01,"gcp, kubernetes",docker,0.0125,220,0.0187,0.0518,0.6707,12.9512,0.0116,2.88
+16,overall,17552,0.01,"azure, kubernetes, python",docker,0.0101,177,0.015,0.0518,0.6705,12.9459,0.0093,2.877
+17,overall,17552,0.01,data warehousing,etl,0.0117,206,0.0197,0.0462,0.5954,12.8854,0.0108,2.357
+18,overall,17552,0.01,"git, kubernetes",docker,0.0148,260,0.0224,0.0518,0.6616,12.7745,0.0137,2.802
+19,overall,17552,0.01,"ci/cd, kubernetes",docker,0.0171,301,0.0262,0.0518,0.6543,12.6349,0.0158,2.743
+20,overall,17552,0.01,"data visualization, sql",tableau,0.012,211,0.0223,0.0427,0.5396,12.6291,0.0111,2.079

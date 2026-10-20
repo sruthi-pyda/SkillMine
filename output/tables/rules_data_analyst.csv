@@ -1,0 +1,214 @@
+rank,role_group,n_baskets,min_support_used,antecedents,consequents,support,support_count,antecedent support,consequent support,confidence,lift,leverage,conviction
+1,data_analyst,1348,0.02,"data visualization, python","r, sql",0.0252,34,0.0415,0.0519,0.6071,11.6918,0.0231,2.413
+2,data_analyst,1348,0.02,"data visualization, python","r, statistics",0.0215,29,0.0415,0.046,0.5179,11.2592,0.0196,1.979
+3,data_analyst,1348,0.02,"data visualization, r","python, statistics",0.0215,29,0.0326,0.0623,0.6591,10.5768,0.0195,2.751
+4,data_analyst,1348,0.02,"python, tableau","r, sql",0.0267,36,0.0504,0.0519,0.5294,10.195,0.0241,2.015
+5,data_analyst,1348,0.02,"r, sql","python, tableau",0.0267,36,0.0519,0.0504,0.5143,10.195,0.0241,1.955
+6,data_analyst,1348,0.02,"data visualization, python, statistics",r,0.0215,29,0.0274,0.0794,0.7838,9.8742,0.0193,4.258
+7,data_analyst,1348,0.02,"r, sql","python, statistics",0.0304,41,0.0519,0.0623,0.5857,9.3993,0.0272,2.263
+8,data_analyst,1348,0.02,"r, tableau","python, statistics",0.02,27,0.0356,0.0623,0.5625,9.0268,0.0178,2.143
+9,data_analyst,1348,0.02,"python, statistics, tableau",r,0.02,27,0.0297,0.0794,0.675,8.5037,0.0177,2.833
+10,data_analyst,1348,0.02,"data visualization, python",r,0.0274,37,0.0415,0.0794,0.6607,8.3238,0.0242,2.713
+11,data_analyst,1348,0.02,"data visualization, python, sql",r,0.0252,34,0.0386,0.0794,0.6538,8.2372,0.0222,2.66
+12,data_analyst,1348,0.02,"data visualization, r","python, sql",0.0252,34,0.0326,0.1016,0.7727,7.6032,0.0219,3.953
+13,data_analyst,1348,0.02,"python, sql, statistics",r,0.0304,41,0.0504,0.0794,0.6029,7.5959,0.0264,2.319
+14,data_analyst,1348,0.02,"python, statistics",r,0.0371,50,0.0623,0.0794,0.5952,7.4989,0.0321,2.274
+15,data_analyst,1348,0.02,"python, sql, tableau",r,0.0267,36,0.0453,0.0794,0.5902,7.435,0.0231,2.246
+16,data_analyst,1348,0.02,"python, tableau",r,0.0297,40,0.0504,0.0794,0.5882,7.4107,0.0257,2.236
+17,data_analyst,1348,0.02,"r, tableau","python, sql",0.0267,36,0.0356,0.1016,0.75,7.3796,0.0231,3.593
+18,data_analyst,1348,0.02,"data visualization, sql, statistics",r,0.0223,30,0.0386,0.0794,0.5769,7.2682,0.0192,2.176
+19,data_analyst,1348,0.02,"data visualization, r","sql, statistics",0.0223,30,0.0326,0.095,0.6818,7.1804,0.0192,2.844
+20,data_analyst,1348,0.02,"r, sql, tableau",python,0.0267,36,0.0297,0.1283,0.9,7.0127,0.0229,8.717
+21,data_analyst,1348,0.02,"data visualization, r, sql",python,0.0252,34,0.0282,0.1283,0.8947,6.9717,0.0216,8.281
+22,data_analyst,1348,0.02,"r, sql, statistics",python,0.0304,41,0.0349,0.1283,0.8723,6.7972,0.0259,6.828
+23,data_analyst,1348,0.02,"r, sql",python,0.0453,61,0.0519,0.1283,0.8714,6.7901,0.0386,6.78
+24,data_analyst,1348,0.02,"r, statistics, tableau",python,0.02,27,0.0237,0.1283,0.8438,6.5744,0.017,5.579
+25,data_analyst,1348,0.02,"data visualization, r",python,0.0274,37,0.0326,0.1283,0.8409,6.5523,0.0233,5.479
+26,data_analyst,1348,0.02,"communication, python",r,0.0215,29,0.0415,0.0794,0.5179,6.524,0.0182,1.909
+27,data_analyst,1348,0.02,"r, statistics","python, sql",0.0304,41,0.046,0.1016,0.6613,6.5067,0.0257,2.652
+28,data_analyst,1348,0.02,"r, tableau",python,0.0297,40,0.0356,0.1283,0.8333,6.4933,0.0251,5.23
+29,data_analyst,1348,0.02,"data visualization, r, statistics",python,0.0215,29,0.026,0.1283,0.8286,6.4562,0.0182,5.085
+30,data_analyst,1348,0.02,"data visualization, python","sql, statistics",0.0252,34,0.0415,0.095,0.6071,6.394,0.0213,2.304
+31,data_analyst,1348,0.02,"r, statistics",python,0.0371,50,0.046,0.1283,0.8065,6.2838,0.0312,4.504
+32,data_analyst,1348,0.02,"machine learning, sql",python,0.0223,30,0.0282,0.1283,0.7895,6.1515,0.0186,4.14
+33,data_analyst,1348,0.02,"machine learning, statistics",python,0.0208,28,0.0267,0.1283,0.7778,6.0604,0.0173,3.922
+34,data_analyst,1348,0.02,"python, r","sql, statistics",0.0304,41,0.0534,0.095,0.5694,5.997,0.0253,2.102
+35,data_analyst,1348,0.02,"data visualization, python","sql, tableau",0.023,31,0.0415,0.0935,0.5536,5.9223,0.0191,2.031
+36,data_analyst,1348,0.02,"communication, r",python,0.0215,29,0.0289,0.1283,0.7436,5.794,0.0178,3.399
+37,data_analyst,1348,0.02,r,"python, sql",0.0453,61,0.0794,0.1016,0.5701,5.6094,0.0372,2.09
+38,data_analyst,1348,0.02,"r, sql, statistics",data visualization,0.0223,30,0.0349,0.1142,0.6383,5.5872,0.0183,2.449
+39,data_analyst,1348,0.02,"python, tableau","sql, statistics",0.026,35,0.0504,0.095,0.5147,5.4205,0.0212,1.865
+40,data_analyst,1348,0.02,"power bi, sql, statistics",data visualization,0.0215,29,0.0349,0.1142,0.617,5.4009,0.0175,2.313
+41,data_analyst,1348,0.02,"sql, statistics, tableau",data visualization,0.0245,33,0.0401,0.1142,0.6111,5.3492,0.0199,2.278
+42,data_analyst,1348,0.02,"python, r","sql, tableau",0.0267,36,0.0534,0.0935,0.5,5.3492,0.0217,1.813
+43,data_analyst,1348,0.02,"r, tableau",data visualization,0.0215,29,0.0356,0.1142,0.6042,5.2884,0.0174,2.238
+44,data_analyst,1348,0.02,r,python,0.0534,72,0.0794,0.1283,0.6729,5.2432,0.0432,2.665
+45,data_analyst,1348,0.02,"data visualization, sql, statistics",python,0.0252,34,0.0386,0.1283,0.6538,5.0947,0.0203,2.518
+46,data_analyst,1348,0.02,"python, r, statistics",data visualization,0.0215,29,0.0371,0.1142,0.58,5.0769,0.0173,2.109
+47,data_analyst,1348,0.02,"sql, statistics, tableau",python,0.026,35,0.0401,0.1283,0.6481,5.0503,0.0208,2.477
+48,data_analyst,1348,0.02,"r, statistics",data visualization,0.026,35,0.046,0.1142,0.5645,4.9413,0.0207,2.034
+49,data_analyst,1348,0.02,"data modeling, power bi",data visualization,0.02,27,0.0356,0.1142,0.5625,4.9237,0.016,2.025
+50,data_analyst,1348,0.02,"communication, sql, statistics",python,0.02,27,0.0319,0.1283,0.6279,4.8926,0.0159,2.343
+51,data_analyst,1348,0.02,"python, r, sql",data visualization,0.0252,34,0.0453,0.1142,0.5574,4.8789,0.0201,2.001
+52,data_analyst,1348,0.02,"statistics, tableau",data visualization,0.0312,42,0.0564,0.1142,0.5526,4.8373,0.0247,1.98
+53,data_analyst,1348,0.02,"r, sql",data visualization,0.0282,38,0.0519,0.1142,0.5429,4.7518,0.0223,1.938
+54,data_analyst,1348,0.02,"data visualization, r",tableau,0.0215,29,0.0326,0.1387,0.6591,4.7511,0.017,2.526
+55,data_analyst,1348,0.02,"power bi, statistics",data visualization,0.0245,33,0.046,0.1142,0.5323,4.659,0.0192,1.894
+56,data_analyst,1348,0.02,"power bi, sql, statistics",tableau,0.0223,30,0.0349,0.1387,0.6383,4.6012,0.0174,2.381
+57,data_analyst,1348,0.02,"data visualization, sql, statistics",tableau,0.0245,33,0.0386,0.1387,0.6346,4.5747,0.0191,2.357
+58,data_analyst,1348,0.02,machine learning,python,0.0304,41,0.0519,0.1283,0.5857,4.5638,0.0238,2.104
+59,data_analyst,1348,0.02,"data visualization, sql, tableau",python,0.023,31,0.0393,0.1283,0.5849,4.5575,0.018,2.1
+60,data_analyst,1348,0.02,"python, r",data visualization,0.0274,37,0.0534,0.1142,0.5139,4.4982,0.0213,1.822
+61,data_analyst,1348,0.02,"data visualization, r",statistics,0.026,35,0.0326,0.1788,0.7955,4.4493,0.0201,4.015
+62,data_analyst,1348,0.02,"python, sql, tableau",data visualization,0.023,31,0.0453,0.1142,0.5082,4.4484,0.0178,1.801
+63,data_analyst,1348,0.02,"power bi, statistics",tableau,0.0282,38,0.046,0.1387,0.6129,4.4181,0.0218,2.225
+64,data_analyst,1348,0.02,"data visualization, r, sql",statistics,0.0223,30,0.0282,0.1788,0.7895,4.4158,0.0172,3.901
+65,data_analyst,1348,0.02,"data visualization, power bi, sql",tableau,0.0223,30,0.0364,0.1387,0.6122,4.4134,0.0172,2.221
+66,data_analyst,1348,0.02,"data visualization, python, r",statistics,0.0215,29,0.0274,0.1788,0.7838,4.384,0.0166,3.798
+67,data_analyst,1348,0.02,"excel, r",python,0.02,27,0.0356,0.1283,0.5625,4.3829,0.0155,1.992
+68,data_analyst,1348,0.02,"python, sql, statistics",data visualization,0.0252,34,0.0504,0.1142,0.5,4.3766,0.0195,1.772
+69,data_analyst,1348,0.02,sas,statistics,0.026,35,0.0334,0.1788,0.7778,4.3504,0.02,3.695
+70,data_analyst,1348,0.02,"communication, power bi, sql",tableau,0.02,27,0.0334,0.1387,0.6,4.3251,0.0154,2.153
+71,data_analyst,1348,0.02,"data modeling, data visualization",power bi,0.02,27,0.0267,0.1736,0.75,4.3205,0.0154,3.306
+72,data_analyst,1348,0.02,"data visualization, python, sql",tableau,0.023,31,0.0386,0.1387,0.5962,4.2974,0.0176,2.133
+73,data_analyst,1348,0.02,"data visualization, statistics",tableau,0.0312,42,0.0527,0.1387,0.5915,4.2642,0.0239,2.109
+74,data_analyst,1348,0.02,"python, r, sql",tableau,0.0267,36,0.0453,0.1387,0.5902,4.2542,0.0204,2.102
+75,data_analyst,1348,0.02,aws,python,0.0223,30,0.0408,0.1283,0.5455,4.2501,0.017,1.918
+76,data_analyst,1348,0.02,"data visualization, python",tableau,0.0245,33,0.0415,0.1387,0.5893,4.2479,0.0187,2.097
+77,data_analyst,1348,0.02,"data visualization, excel, sql",tableau,0.02,27,0.0341,0.1387,0.587,4.2311,0.0153,2.085
+78,data_analyst,1348,0.02,"data visualization, power bi",tableau,0.0304,41,0.0527,0.1387,0.5775,4.1627,0.0231,2.038
+79,data_analyst,1348,0.02,"sql, statistics",python,0.0504,68,0.095,0.1283,0.5312,4.1395,0.0383,1.86
+80,data_analyst,1348,0.02,"data visualization, sql",python,0.0386,52,0.0727,0.1283,0.5306,4.1345,0.0292,1.857
+81,data_analyst,1348,0.02,"r, sql",tableau,0.0297,40,0.0519,0.1387,0.5714,4.1192,0.0225,2.01
+82,data_analyst,1348,0.02,"statistics, tableau",python,0.0297,40,0.0564,0.1283,0.5263,4.101,0.0224,1.84
+83,data_analyst,1348,0.02,"communication, data visualization",tableau,0.0223,30,0.0393,0.1387,0.566,4.0803,0.0168,1.985
+84,data_analyst,1348,0.02,"data visualization, statistics",python,0.0274,37,0.0527,0.1283,0.5211,4.0606,0.0207,1.82
+85,data_analyst,1348,0.02,"python, r",tableau,0.0297,40,0.0534,0.1387,0.5556,4.0048,0.0223,1.938
+86,data_analyst,1348,0.02,"machine learning, sql",statistics,0.02,27,0.0282,0.1788,0.7105,3.9742,0.015,2.837
+87,data_analyst,1348,0.02,"power bi, python, sql",tableau,0.02,27,0.0364,0.1387,0.551,3.9721,0.015,1.918
+88,data_analyst,1348,0.02,"data visualization, sql",tableau,0.0393,53,0.0727,0.1387,0.5408,3.8985,0.0292,1.876
+89,data_analyst,1348,0.02,"python, r, statistics",tableau,0.02,27,0.0371,0.1387,0.54,3.8926,0.0149,1.872
+90,data_analyst,1348,0.02,"python, r",statistics,0.0371,50,0.0534,0.1788,0.6944,3.8843,0.0275,2.688
+91,data_analyst,1348,0.02,"excel, python, sql",tableau,0.0208,28,0.0386,0.1387,0.5385,3.8815,0.0154,1.866
+92,data_analyst,1348,0.02,"machine learning, python",statistics,0.0208,28,0.0304,0.1788,0.6829,3.8199,0.0153,2.59
+93,data_analyst,1348,0.02,"power bi, python",tableau,0.0215,29,0.0408,0.1387,0.5273,3.8009,0.0159,1.822
+94,data_analyst,1348,0.02,"python, r, tableau",statistics,0.02,27,0.0297,0.1788,0.675,3.7755,0.0147,2.527
+95,data_analyst,1348,0.02,"python, r, sql",statistics,0.0304,41,0.0453,0.1788,0.6721,3.7595,0.0223,2.505
+96,data_analyst,1348,0.02,"r, sql",statistics,0.0349,47,0.0519,0.1788,0.6714,3.7555,0.0256,2.499
+97,data_analyst,1348,0.02,"r, tableau",statistics,0.0237,32,0.0356,0.1788,0.6667,3.7289,0.0174,2.464
+98,data_analyst,1348,0.02,"r, statistics",tableau,0.0237,32,0.046,0.1387,0.5161,3.7205,0.0174,1.78
+99,data_analyst,1348,0.02,"python, sql, statistics",tableau,0.026,35,0.0504,0.1387,0.5147,3.7103,0.019,1.775
+100,data_analyst,1348,0.02,"excel, power bi, sql",tableau,0.0274,37,0.0534,0.1387,0.5139,3.7044,0.02,1.772
+101,data_analyst,1348,0.02,"data visualization, python",statistics,0.0274,37,0.0415,0.1788,0.6607,3.6956,0.02,2.42
+102,data_analyst,1348,0.02,"data visualization, python, sql",statistics,0.0252,34,0.0386,0.1788,0.6538,3.6572,0.0183,2.372
+103,data_analyst,1348,0.02,"power bi, sql",tableau,0.0475,64,0.0942,0.1387,0.5039,3.6327,0.0344,1.736
+104,data_analyst,1348,0.02,"data visualization, sql, tableau",statistics,0.0245,33,0.0393,0.1788,0.6226,3.4827,0.0175,2.176
+105,data_analyst,1348,0.02,jira,agile,0.0527,71,0.0749,0.2055,0.703,3.421,0.0373,2.675
+106,data_analyst,1348,0.02,"data visualization, tableau",power bi,0.0304,41,0.0527,0.1736,0.5775,3.3266,0.0213,1.956
+107,data_analyst,1348,0.02,"data visualization, power bi, sql",statistics,0.0215,29,0.0364,0.1788,0.5918,3.3104,0.015,2.012
+108,data_analyst,1348,0.02,"data visualization, tableau",statistics,0.0312,42,0.0527,0.1788,0.5915,3.3087,0.0217,2.011
+109,data_analyst,1348,0.02,"python, tableau",statistics,0.0297,40,0.0504,0.1788,0.5882,3.2902,0.0207,1.994
+110,data_analyst,1348,0.02,"data visualization, sql, tableau",power bi,0.0223,30,0.0393,0.1736,0.566,3.2608,0.0154,1.904
+111,data_analyst,1348,0.02,r,statistics,0.046,62,0.0794,0.1788,0.5794,3.241,0.0318,1.953
+112,data_analyst,1348,0.02,"data visualization, sql, statistics",power bi,0.0215,29,0.0386,0.1736,0.5577,3.2127,0.0148,1.868
+113,data_analyst,1348,0.02,"python, sql, tableau",statistics,0.026,35,0.0453,0.1788,0.5738,3.2093,0.0179,1.927
+114,data_analyst,1348,0.02,"sql, statistics, tableau",power bi,0.0223,30,0.0401,0.1736,0.5556,3.2004,0.0153,1.859
+115,data_analyst,1348,0.02,"communication, python",statistics,0.0237,32,0.0415,0.1788,0.5714,3.1962,0.0163,1.916
+116,data_analyst,1348,0.02,"excel, sql, tableau",power bi,0.0274,37,0.0497,0.1736,0.5522,3.1813,0.0188,1.846
+117,data_analyst,1348,0.02,"communication, python, sql",statistics,0.02,27,0.0356,0.1788,0.5625,3.1463,0.0137,1.877
+118,data_analyst,1348,0.02,"data modeling, sql",power bi,0.0267,36,0.0504,0.1736,0.5294,3.0498,0.0179,1.756
+119,data_analyst,1348,0.02,"communication, sql, tableau",power bi,0.02,27,0.0378,0.1736,0.5294,3.0498,0.0135,1.756
+120,data_analyst,1348,0.02,azure,power bi,0.0223,30,0.043,0.1736,0.5172,2.9797,0.0148,1.712
+121,data_analyst,1348,0.02,"data visualization, sql",statistics,0.0386,52,0.0727,0.1788,0.5306,2.9679,0.0256,1.75
+122,data_analyst,1348,0.02,"excel, tableau",power bi,0.0386,52,0.0749,0.1736,0.5149,2.9659,0.0256,1.703
+123,data_analyst,1348,0.02,"excel, python, tableau",sql,0.0208,28,0.0215,0.3279,0.9655,2.9446,0.0137,19.491
+124,data_analyst,1348,0.02,"sql, tableau",power bi,0.0475,64,0.0935,0.1736,0.5079,2.9261,0.0313,1.679
+125,data_analyst,1348,0.02,"data visualization, sql",power bi,0.0364,49,0.0727,0.1736,0.5,2.8803,0.0237,1.653
+126,data_analyst,1348,0.02,"statistics, tableau",power bi,0.0282,38,0.0564,0.1736,0.5,2.8803,0.0184,1.653
+127,data_analyst,1348,0.02,machine learning,statistics,0.0267,36,0.0519,0.1788,0.5143,2.8766,0.0174,1.691
+128,data_analyst,1348,0.02,"data visualization, python, tableau",sql,0.023,31,0.0245,0.3279,0.9394,2.8649,0.015,11.09
+129,data_analyst,1348,0.02,"communication, data visualization",statistics,0.02,27,0.0393,0.1788,0.5094,2.8494,0.013,1.674
+130,data_analyst,1348,0.02,"power bi, python",statistics,0.0208,28,0.0408,0.1788,0.5091,2.8475,0.0135,1.673
+131,data_analyst,1348,0.02,"power bi, python, tableau",sql,0.02,27,0.0215,0.3279,0.931,2.8394,0.013,9.746
+132,data_analyst,1348,0.02,"data visualization, python",sql,0.0386,52,0.0415,0.3279,0.9286,2.8319,0.025,9.409
+133,data_analyst,1348,0.02,"data visualization, python, statistics",sql,0.0252,34,0.0274,0.3279,0.9189,2.8025,0.0162,8.289
+134,data_analyst,1348,0.02,"data visualization, python, r",sql,0.0252,34,0.0274,0.3279,0.9189,2.8025,0.0162,8.289
+135,data_analyst,1348,0.02,"python, r, tableau",sql,0.0267,36,0.0297,0.3279,0.9,2.7448,0.017,6.721
+136,data_analyst,1348,0.02,"python, tableau",sql,0.0453,61,0.0504,0.3279,0.8971,2.7358,0.0287,6.529
+137,data_analyst,1348,0.02,"power bi, python",sql,0.0364,49,0.0408,0.3279,0.8909,2.7171,0.023,6.161
+138,data_analyst,1348,0.02,"data visualization, power bi, statistics",sql,0.0215,29,0.0245,0.3279,0.8788,2.6801,0.0135,5.545
+139,data_analyst,1348,0.02,"python, statistics, tableau",sql,0.026,35,0.0297,0.3279,0.875,2.6686,0.0162,5.377
+140,data_analyst,1348,0.02,"excel, python",sql,0.0386,52,0.0445,0.3279,0.8667,2.6431,0.024,5.041
+141,data_analyst,1348,0.02,"data visualization, r",sql,0.0282,38,0.0326,0.3279,0.8636,2.6339,0.0175,4.929
+142,data_analyst,1348,0.02,"communication, python",sql,0.0356,48,0.0415,0.3279,0.8571,2.6141,0.022,4.705
+143,data_analyst,1348,0.02,"data visualization, r, statistics",sql,0.0223,30,0.026,0.3279,0.8571,2.6141,0.0137,4.705
+144,data_analyst,1348,0.02,etl,sql,0.0334,45,0.0393,0.3279,0.8491,2.5894,0.0205,4.453
+145,data_analyst,1348,0.02,"python, r",sql,0.0453,61,0.0534,0.3279,0.8472,2.5838,0.0277,4.399
+146,data_analyst,1348,0.02,"communication, python, statistics",sql,0.02,27,0.0237,0.3279,0.8438,2.5732,0.0122,4.301
+147,data_analyst,1348,0.02,"r, tableau",sql,0.0297,40,0.0356,0.3279,0.8333,2.5415,0.018,4.033
+148,data_analyst,1348,0.02,"python, r, statistics",sql,0.0304,41,0.0371,0.3279,0.82,2.5008,0.0183,3.734
+149,data_analyst,1348,0.02,"data visualization, excel, tableau",sql,0.02,27,0.0245,0.3279,0.8182,2.4953,0.012,3.697
+150,data_analyst,1348,0.02,"agile, tableau",sql,0.02,27,0.0245,0.3279,0.8182,2.4953,0.012,3.697
+151,data_analyst,1348,0.02,"python, statistics",sql,0.0504,68,0.0623,0.3279,0.8095,2.4689,0.03,3.529
+152,data_analyst,1348,0.02,"data modeling, data visualization",sql,0.0215,29,0.0267,0.3279,0.8056,2.4568,0.0128,3.457
+153,data_analyst,1348,0.02,"data modeling, python",sql,0.0215,29,0.0267,0.3279,0.8056,2.4568,0.0128,3.457
+154,data_analyst,1348,0.02,python,sql,0.1016,137,0.1283,0.3279,0.7919,2.4151,0.0596,3.23
+155,data_analyst,1348,0.02,"power bi, statistics, tableau",sql,0.0223,30,0.0282,0.3279,0.7895,2.4077,0.013,3.193
+156,data_analyst,1348,0.02,"data visualization, statistics, tableau",sql,0.0245,33,0.0312,0.3279,0.7857,2.3963,0.0143,3.136
+157,data_analyst,1348,0.02,"communication, excel, powerpoint",ms office,0.0297,40,0.0586,0.2136,0.5063,2.3699,0.0172,1.593
+158,data_analyst,1348,0.02,"data modeling, statistics",sql,0.023,31,0.0297,0.3279,0.775,2.3636,0.0133,2.987
+159,data_analyst,1348,0.02,"communication, power bi, tableau",sql,0.02,27,0.026,0.3279,0.7714,2.3527,0.0115,2.94
+160,data_analyst,1348,0.02,data warehousing,sql,0.0223,30,0.0289,0.3279,0.7692,2.346,0.0128,2.912
+161,data_analyst,1348,0.02,"communication, powerpoint",ms office,0.0304,41,0.0608,0.2136,0.5,2.3403,0.0174,1.573
+162,data_analyst,1348,0.02,"r, statistics",sql,0.0349,47,0.046,0.3279,0.7581,2.3119,0.0198,2.778
+163,data_analyst,1348,0.02,"power bi, statistics",sql,0.0349,47,0.046,0.3279,0.7581,2.3119,0.0198,2.778
+164,data_analyst,1348,0.02,"data modeling, excel",sql,0.0252,34,0.0334,0.3279,0.7556,2.3043,0.0143,2.75
+165,data_analyst,1348,0.02,"data modeling, power bi",sql,0.0267,36,0.0356,0.3279,0.75,2.2873,0.015,2.688
+166,data_analyst,1348,0.02,"machine learning, statistics",sql,0.02,27,0.0267,0.3279,0.75,2.2873,0.0113,2.688
+167,data_analyst,1348,0.02,"data visualization, tableau",sql,0.0393,53,0.0527,0.3279,0.7465,2.2766,0.022,2.651
+168,data_analyst,1348,0.02,"data visualization, statistics",sql,0.0386,52,0.0527,0.3279,0.7324,2.2336,0.0213,2.512
+169,data_analyst,1348,0.02,"data visualization, power bi, tableau",sql,0.0223,30,0.0304,0.3279,0.7317,2.2315,0.0123,2.505
+170,data_analyst,1348,0.02,"machine learning, python",sql,0.0223,30,0.0304,0.3279,0.7317,2.2315,0.0123,2.505
+171,data_analyst,1348,0.02,snowflake,sql,0.02,27,0.0274,0.3279,0.7297,2.2255,0.011,2.487
+172,data_analyst,1348,0.02,"excel, power bi, tableau",sql,0.0274,37,0.0386,0.3279,0.7115,2.17,0.0148,2.33
+173,data_analyst,1348,0.02,"statistics, tableau",sql,0.0401,54,0.0564,0.3279,0.7105,2.1669,0.0216,2.322
+174,data_analyst,1348,0.02,"communication, tableau",sql,0.0378,51,0.0534,0.3279,0.7083,2.1603,0.0203,2.304
+175,data_analyst,1348,0.02,"power bi, tableau",sql,0.0475,64,0.0675,0.3279,0.7033,2.1449,0.0253,2.265
+176,data_analyst,1348,0.02,"communication, r",sql,0.02,27,0.0289,0.3279,0.6923,2.1114,0.0105,2.184
+177,data_analyst,1348,0.02,"data visualization, power bi",sql,0.0364,49,0.0527,0.3279,0.6901,2.1048,0.0191,2.169
+178,data_analyst,1348,0.02,sas,sql,0.023,31,0.0334,0.3279,0.6889,2.101,0.0121,2.16
+179,data_analyst,1348,0.02,"communication, excel, tableau",sql,0.02,27,0.0297,0.3279,0.675,2.0586,0.0103,2.068
+180,data_analyst,1348,0.02,tableau,sql,0.0935,126,0.1387,0.3279,0.6738,2.0549,0.048,2.06
+181,data_analyst,1348,0.02,"power bi, powerpoint",excel,0.0245,33,0.0245,0.4896,1.0,2.0424,0.0125,inf
+182,data_analyst,1348,0.02,"excel, r",sql,0.0237,32,0.0356,0.3279,0.6667,2.0332,0.0121,2.016
+183,data_analyst,1348,0.02,"excel, tableau",sql,0.0497,67,0.0749,0.3279,0.6634,2.0231,0.0251,1.997
+184,data_analyst,1348,0.02,azure,sql,0.0282,38,0.043,0.3279,0.6552,1.9981,0.0141,1.949
+185,data_analyst,1348,0.02,r,sql,0.0519,70,0.0794,0.3279,0.6542,1.9952,0.0259,1.944
+186,data_analyst,1348,0.02,"communication, ms office, powerpoint",excel,0.0297,40,0.0304,0.4896,0.9756,1.9926,0.0148,20.926
+187,data_analyst,1348,0.02,"ms office, tableau",sql,0.0208,28,0.0319,0.3279,0.6512,1.9859,0.0103,1.927
+188,data_analyst,1348,0.02,"ms office, powerpoint",excel,0.0668,90,0.069,0.4896,0.9677,1.9765,0.033,15.822
+189,data_analyst,1348,0.02,"communication, powerpoint",excel,0.0586,79,0.0608,0.4896,0.9634,1.9677,0.0288,13.951
+190,data_analyst,1348,0.02,data visualization,sql,0.0727,98,0.1142,0.3279,0.6364,1.9408,0.0352,1.848
+191,data_analyst,1348,0.02,aws,sql,0.026,35,0.0408,0.3279,0.6364,1.9408,0.0126,1.848
+192,data_analyst,1348,0.02,"communication, data visualization",sql,0.0245,33,0.0393,0.3279,0.6226,1.8989,0.0116,1.781
+193,data_analyst,1348,0.02,"data visualization, excel",sql,0.0341,46,0.0549,0.3279,0.6216,1.8958,0.0161,1.776
+194,data_analyst,1348,0.02,powerpoint,excel,0.1387,187,0.1506,0.4896,0.9212,1.8814,0.065,6.476
+195,data_analyst,1348,0.02,data modeling,sql,0.0504,68,0.0831,0.3279,0.6071,1.8516,0.0232,1.711
+196,data_analyst,1348,0.02,"powerpoint, sql",excel,0.0304,41,0.0341,0.4896,0.8913,1.8204,0.0137,4.696
+197,data_analyst,1348,0.02,"data visualization, ms office",excel,0.02,27,0.0237,0.4896,0.8438,1.7233,0.0084,3.266
+198,data_analyst,1348,0.02,"agile, powerpoint",excel,0.023,31,0.0274,0.4896,0.8378,1.7112,0.0096,3.147
+199,data_analyst,1348,0.02,machine learning,sql,0.0282,38,0.0519,0.3279,0.5429,1.6556,0.0112,1.47
+200,data_analyst,1348,0.02,power bi,sql,0.0942,127,0.1736,0.3279,0.5427,1.6552,0.0373,1.47
+201,data_analyst,1348,0.02,statistics,sql,0.095,128,0.1788,0.3279,0.5311,1.6198,0.0363,1.433
+202,data_analyst,1348,0.02,"communication, statistics",sql,0.0319,43,0.0601,0.3279,0.5309,1.619,0.0122,1.433
+203,data_analyst,1348,0.02,"communication, power bi",sql,0.0334,45,0.0631,0.3279,0.5294,1.6146,0.0127,1.428
+204,data_analyst,1348,0.02,"ms office, power bi",excel,0.0326,44,0.0415,0.4896,0.7857,1.6048,0.0123,2.382
+205,data_analyst,1348,0.02,"excel, statistics",sql,0.0393,53,0.0749,0.3279,0.5248,1.6004,0.0147,1.414
+206,data_analyst,1348,0.02,"ms office, tableau",excel,0.0245,33,0.0319,0.4896,0.7674,1.5674,0.0089,2.195
+207,data_analyst,1348,0.02,"ms office, sql",excel,0.0423,57,0.0556,0.4896,0.76,1.5522,0.015,2.127
+208,data_analyst,1348,0.02,ms office,excel,0.155,209,0.2136,0.4896,0.7257,1.4822,0.0504,1.861
+209,data_analyst,1348,0.02,"communication, ms office",excel,0.0638,86,0.0905,0.4896,0.7049,1.4397,0.0195,1.73
+210,data_analyst,1348,0.02,"ms office, statistics",excel,0.0245,33,0.0349,0.4896,0.7021,1.434,0.0074,1.713
+211,data_analyst,1348,0.02,"communication, power bi",excel,0.0415,56,0.0631,0.4896,0.6588,1.3456,0.0107,1.496
+212,data_analyst,1348,0.02,power bi,excel,0.1098,148,0.1736,0.4896,0.6325,1.2918,0.0248,1.389
+213,data_analyst,1348,0.02,sas,excel,0.0208,28,0.0334,0.4896,0.6222,1.2708,0.0044,1.351
