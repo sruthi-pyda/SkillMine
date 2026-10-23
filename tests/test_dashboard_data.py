@@ -280,3 +280,4 @@ class TestRealArtifacts:
         assert 'src="lib/' not in html
         assert "node_modules" not in html
         assert "function neighbourhoodHighlight" in html
+        assert "physics: false" in html   # layout freezes after stabilising

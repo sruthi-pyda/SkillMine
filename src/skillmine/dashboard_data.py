@@ -148,7 +148,32 @@ def load_network_html(presentation: bool = True,
                   lib_dir / "vis-9.1.2" / "vis-network.min.js")
     inline_style(r'<link[^>]*href="[^"]*vis-network[^"]*\.css"[^>]*>',
                  lib_dir / "vis-9.1.2" / "vis-network.css")
+
+    # Readability fixes applied at display time (the exported HTML is untouched):
+    # labels big enough to read at the fitted zoom level, and physics frozen once
+    # the layout settles so the graph stops drifting and dragging a node does not
+    # set the whole graph bouncing.
+    # Stronger central gravity keeps small disconnected components (e.g. the
+    # sap–erp pair) near the main graph, so fitting the view doesn't zoom out
+    # until labels are unreadable.
+    html = html.replace('"physics": {"enabled": true}', NETWORK_PHYSICS, 1)
+    html = html.replace("return network;", NETWORK_DISPLAY_JS + "return network;", 1)
     return html
+
+
+NETWORK_PHYSICS = ('"physics": {"enabled": true, "solver": "forceAtlas2Based", '
+                   '"forceAtlas2Based": {"gravitationalConstant": -60, "centralGravity": 0.03, '
+                   '"springLength": 90, "springConstant": 0.08, "avoidOverlap": 0.4}, '
+                   '"stabilization": {"iterations": 2500}}')
+
+NETWORK_DISPLAY_JS = """
+                  network.setOptions({nodes: {font: {size: 18, color: "#ffffff",
+                      strokeWidth: 4, strokeColor: "#1a1a2e"}}});
+                  network.once("stabilizationIterationsDone", function () {
+                      network.setOptions({physics: false});
+                      network.fit();
+                  });
+                  """
 
 
 # ── Itemset helpers ───────────────────────────────────────────────────────

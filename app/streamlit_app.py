@@ -19,7 +19,7 @@ st.set_page_config(page_title="SkillMine", page_icon="⛏️", layout="wide")
 
 nav = st.navigation({
     "Historical analysis": [
-        st.Page(views.overview_page,  title="Overview",          icon="🏠", url_path="overview", default=True),
+        st.Page(views.overview_page,  title="Overview",          icon="🏠", default=True),
         st.Page(views.rules_page,     title="Association Rules", icon="🔗", url_path="rules"),
         st.Page(views.network_page,   title="Skill Network",     icon="🕸️", url_path="network"),
         st.Page(views.clusters_page,  title="Posting Clusters",  icon="🧩", url_path="clusters"),

@@ -12,7 +12,6 @@ from pathlib import Path
 import altair as alt
 import pandas as pd
 import streamlit as st
-import streamlit.components.v1 as components
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from src.skillmine import dashboard_data as dd
@@ -33,6 +32,10 @@ ROLE_NAMES = {
     "data_scientist_ml": "Data scientist / ML",
     "data_engineer":     "Data engineer",
 }
+
+# Cluster labels like "C2 · Web / Frontend Engineering" are long; Vega-Lite
+# truncates axis labels at 180px by default.
+LABEL_AXIS = alt.Axis(labelLimit=320)
 
 SNAPSHOT_NOTE = ("Historical snapshot: LinkedIn postings listed "
                  "{start:%d %b %Y} – {end:%d %b %Y}. Not live data.")
@@ -131,7 +134,7 @@ def overview_page():
     c[2].metric("Posting–skill pairs", f"{s['n_pairs']:,}")
     c[3].metric("Mean skills / posting", f"{s['mean_skills']:.2f}",
                 help="Averaged over all filtered postings, including zero-skill ones")
-    c[4].metric("Postings with no skill found", f"{s['zero_skill_postings']:,}",
+    c[4].metric("No skill found", f"{s['zero_skill_postings']:,}",
                 help="Excluded from rules, network and clusters — "
                      f"those use the {s['skilled_postings']:,} postings with ≥1 skill")
 
@@ -271,7 +274,7 @@ def network_page():
     view = st.radio("View", ["presentation", "analytical"], horizontal=True,
                     format_func={"presentation": f"Presentation (strong links, PPMI ≥ {NET_VIZ_PRES_EDGE_WEIGHT})",
                                  "analytical": f"Analytical (PPMI ≥ {NET_VIZ_MIN_EDGE_WEIGHT})"}.get)
-    components.html(network_html(view == "presentation"), height=780, scrolling=False)
+    st.iframe(network_html(view == "presentation"), height=780)
 
     with st.expander("How are edges weighted and filtered?"):
         st.markdown(f"""
@@ -327,7 +330,7 @@ def clusters_page():
     with left:
         st.subheader("Why k = %d?" % k)
         sil_chart = alt.Chart(sil).mark_line(point=True).encode(
-            x=alt.X("k:O", title="k"), y=alt.Y("silhouette_score:Q", title="Silhouette",
+            x=alt.X("k:O", title="k", axis=alt.Axis(labelAngle=0)), y=alt.Y("silhouette_score:Q", title="Silhouette",
                                                 scale=alt.Scale(zero=False)),
             tooltip=["k", alt.Tooltip("silhouette_score:Q", format=".3f")])
         chosen = alt.Chart(sil[sil["k"] == k]).mark_point(size=180, filled=True, color="#E8512B").encode(
@@ -340,7 +343,7 @@ def clusters_page():
     with right:
         st.subheader("Cluster sizes")
         st.altair_chart(alt.Chart(summ).mark_bar().encode(
-            x=alt.X("size:Q", title="Postings"), y=alt.Y("display_label:N", sort="-x", title=None),
+            x=alt.X("size:Q", title="Postings"), y=alt.Y("display_label:N", sort="-x", title=None, axis=LABEL_AXIS),
             tooltip=["display_label", "size"]), width="stretch")
 
     st.subheader("Cluster summaries")
@@ -356,7 +359,7 @@ def clusters_page():
     heat = shares[shares["skill"].isin(top_skills)]
     st.altair_chart(alt.Chart(heat).mark_rect().encode(
         x=alt.X("skill:N", sort=top_skills, title=None),
-        y=alt.Y("display_label:N", title=None),
+        y=alt.Y("display_label:N", title=None, axis=LABEL_AXIS),
         color=alt.Color("share:Q", title="Share of cluster", scale=alt.Scale(scheme="blues"),
                         legend=alt.Legend(format="%")),
         tooltip=["display_label", "skill", alt.Tooltip("share:Q", format=".1%"), "postings"],
@@ -382,18 +385,19 @@ def explorer_page():
     node = nodes().set_index("skill")
     comm = communities().set_index("community_id")
 
-    c = st.columns(4)
+    c = st.columns(3)
     c[0].metric("Postings mentioning it", f"{int(row['postings']):,}")
     c[1].metric("Share of all postings", f"{row['share_all']:.1%}",
                 help=f"Out of {len(clean()):,} filtered postings")
     c[2].metric("Share of skill-bearing postings", f"{row['share_skilled']:.1%}",
                 help="Denominator used for rule support and network PMI")
+    # Family labels are too long for a metric tile, so they get their own line.
     if skill in node.index:
         cid = int(node.loc[skill, "community_id"])
         label = comm.loc[cid, "suggested_label"] if cid in comm.index else "—"
-        c[3].metric("Skill family", label, help=f"Louvain community {cid}")
+        st.markdown(f"**Skill family:** {label} *(Louvain community {cid})*")
     else:
-        c[3].metric("Skill family", "—")
+        st.markdown("**Skill family:** — *(not in the network)*")
 
     st.subheader("Association rules")
     summ = rules_summary().set_index("run")
@@ -405,19 +409,18 @@ def explorer_page():
            "support_count": "Count",
            "confidence": st.column_config.NumberColumn("Confidence", format="%.2f"),
            "lift": st.column_config.NumberColumn("Lift", format="%.2f")}
-    r1, r2 = st.columns(2)
-    with r1:
-        st.markdown(f"**Postings with *{skill}* also tend to mention…**")
-        if sr["as_antecedent"].empty:
-            st.caption("No rule with this skill on the *if* side passes the mining thresholds.")
-        else:
-            st.dataframe(sr["as_antecedent"][cols], hide_index=True, width="stretch", column_config=cfg)
-    with r2:
-        st.markdown(f"**…skills that predict *{skill}***")
-        if sr["as_consequent"].empty:
-            st.caption("No rule with this skill on the *then* side passes the mining thresholds.")
-        else:
-            st.dataframe(sr["as_consequent"][cols], hide_index=True, width="stretch", column_config=cfg)
+    # Stacked rather than side by side: rule text is long and half-width tables
+    # pushed confidence/lift out of view.
+    st.markdown(f"**Postings with *{skill}* also tend to mention…**")
+    if sr["as_antecedent"].empty:
+        st.caption("No rule with this skill on the *if* side passes the mining thresholds.")
+    else:
+        st.dataframe(sr["as_antecedent"][cols], hide_index=True, width="stretch", column_config=cfg)
+    st.markdown(f"**…skills that predict *{skill}***")
+    if sr["as_consequent"].empty:
+        st.caption("No rule with this skill on the *then* side passes the mining thresholds.")
+    else:
+        st.dataframe(sr["as_consequent"][cols], hide_index=True, width="stretch", column_config=cfg)
 
     left, right = st.columns(2)
     with left:
@@ -439,7 +442,7 @@ def explorer_page():
             st.altair_chart(alt.Chart(dist).mark_bar().encode(
                 x=alt.X("share:Q", title="Share of cluster's postings mentioning it",
                         axis=alt.Axis(format="%")),
-                y=alt.Y("display_label:N", sort="-x", title=None),
+                y=alt.Y("display_label:N", sort="-x", title=None, axis=LABEL_AXIS),
                 tooltip=["display_label", "postings", alt.Tooltip("share:Q", format=".1%")]),
                 width="stretch")
 
