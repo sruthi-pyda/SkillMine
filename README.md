@@ -59,7 +59,24 @@ source venv/bin/activate   # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### 4. Environment variables (Phase 7 — live job board)
+### 4. Dashboard (Phase 6)
+
+Requires the outputs from steps 2–3 (`output/`). From the project root:
+
+```bash
+streamlit run app/streamlit_app.py
+```
+
+Pages: Overview, Association Rules, Skill Network, Posting Clusters, Skill Explorer, Emerging Skills.
+The dashboard only reads precomputed files; if one is missing it shows the command that regenerates it.
+
+### 5. Tests
+
+```bash
+python -m pytest -q
+```
+
+### 6. Environment variables (Phase 7 — live job board)
 
 ```bash
 cp .env.example .env

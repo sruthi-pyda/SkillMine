@@ -127,3 +127,21 @@ KMEANS_TOP_TITLES        = 8
 
 # ── Reproducibility ───────────────────────────────────────────────────────
 RANDOM_SEED = 42
+
+# ── Phase 6 — Dashboard ───────────────────────────────────────────────────
+BEFORE_AFTER_CSV         = OUTPUT_DIR / "before_after_stats.csv"
+RULES_SUMMARY_CSV        = TABLES_DIR / "rules_summary.csv"
+NETWORK_PRES_HTML        = NETWORK_DIR / "skill_network_presentation.html"
+PYVIS_LIB_DIR            = PROJECT_ROOT / "lib"   # pyvis wrote its JS/CSS here
+
+# Trend analysis needs at least this many distinct calendar months.
+# Below this, the Emerging Skills page shows an explicit "unavailable" state.
+TREND_MIN_MONTHS         = 6
+
+# Role groups with fewer skill-bearing postings than this get a small-sample
+# warning on the association-rules page.
+DASH_SMALL_GROUP_BASKETS = 1000
+
+# Rule sets larger than this are flagged as combinatorially redundant
+# (many rules are re-arrangements of the same frequent itemset).
+DASH_LARGE_RULESET       = 2000
